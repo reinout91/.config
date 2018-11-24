@@ -4,6 +4,8 @@ function syncall --argument message
 	echo $folders
 	git config --global credential.helper "cache --timeout 7200"
 	for i in $folders
+		cd $i
+		pwd
 		git add .
 		git commit -m $message
 		git push
