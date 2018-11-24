@@ -1,5 +1,6 @@
 function syncall --argument message
-	set folders ~/\.config
+	set folders (cat ~/.config/synched_paths.list)
+
 	echo $folders
 	git config --global credential.helper "cache --timeout 7200"
 	for i in $folders
