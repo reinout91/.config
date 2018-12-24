@@ -1,1 +1,1 @@
-/data/data/com.termux/files/home/.local/share/omf/themes/bobthefish/fish_prompt.fish
+/home/reinout/.local/share/omf/themes/agnoster/fish_prompt.fish
