@@ -1,0 +1,15 @@
+game:
+  arch: win64
+  exe: /home/reinout/Games/league-of-legends/drive_c/Riot Games/League of Legends/LeagueClient.exe
+  prefix: /home/reinout/Games/league-of-legends
+system:
+  disable_runtime: true
+  env:
+    MESA_GLTHREAD: 'true'
+    __GL_THREADED_OPTIMIZATIONS: '0'
+wine:
+  MouseWarpOverride: enable
+  UseGLSL: disabled
+  overrides:
+    msvcp140: native,builtin
+  version: staging-3.18-x86_64
